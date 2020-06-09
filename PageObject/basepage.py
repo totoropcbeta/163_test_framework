@@ -1,5 +1,3 @@
-from time import sleep
-
 
 class BasePage:
     """基础page层,封装一些常用方法。"""

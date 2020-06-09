@@ -19,18 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2f97da9-df32-440a-a71e-0741e07d65f1" name="Default Changelist" comment="引入PageObject思想">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Commonlib/Commonlib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestAction/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestAction/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestAction/new_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestAction/new_contact.py" afterDir="false" />
+    <list default="true" id="c2f97da9-df32-440a-a71e-0741e07d65f1" name="Default Changelist" comment="none">
       <change beforePath="$PROJECT_DIR$/TestCase/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestReport/2020-06-09 10:55:02_test_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestReport/2020-06-09 22:07:40_test_report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestReport/2020-06-09 11:00:53_test_report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_tests.py" afterDir="false" />
     </list>
-    <list id="bd18126b-15bd-45a5-bfdf-377866aef3d9" name="unversioned files" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,14 +102,14 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c2f97da9-df32-440a-a71e-0741e07d65f1" name="Default Changelist" comment="" />
-      <changelist id="bd18126b-15bd-45a5-bfdf-377866aef3d9" name="unversioned files" comment="" />
+      <changelist id="" name="unversioned files" comment="" />
       <created>1591668041032</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591668041032</updated>
       <workItem from="1591668043210" duration="1220000" />
       <workItem from="1591669309995" duration="27207000" />
-      <workItem from="1591708752889" duration="3976000" />
+      <workItem from="1591708752889" duration="4670000" />
     </task>
     <task id="LOCAL-00001" summary="完成登陆测试">
       <created>1591668639325</created>
@@ -190,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591712482807</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="none">
+      <created>1591712777159</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591712777159</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,9 +219,9 @@
     <MESSAGE value="Config Changelist" />
     <MESSAGE value="登陆测试报告" />
     <MESSAGE value="modify partial code" />
-    <MESSAGE value="none" />
     <MESSAGE value="引入PageObject思想" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入PageObject思想" />
+    <MESSAGE value="none" />
+    <option name="LAST_COMMIT_MESSAGE" value="none" />
   </component>
   <component name="WindowStateProjectService">
     <state x="587" y="173" width="251" height="302" key="#Notifications" timestamp="1591668685380">
@@ -298,10 +296,10 @@
       <screen x="72" y="27" width="1292" height="587" />
     </state>
     <state x="72" y="27" width="523" height="587" key="VCS.ChangeListViewerDialog/72.27.1292.587@72.27.1292.587" timestamp="1591670685393" />
-    <state x="560" y="227" width="306" height="194" key="VCS.ChangelistChooser" timestamp="1591712635460">
+    <state x="560" y="227" width="306" height="194" key="VCS.ChangelistChooser" timestamp="1591712747862">
       <screen x="72" y="27" width="1292" height="587" />
     </state>
-    <state x="560" y="227" width="306" height="194" key="VCS.ChangelistChooser/72.27.1292.587@72.27.1292.587" timestamp="1591712635460" />
+    <state x="560" y="227" width="306" height="194" key="VCS.ChangelistChooser/72.27.1292.587@72.27.1292.587" timestamp="1591712747862" />
     <state x="584" y="227" width="324" height="269" key="VCS.EditChangelistDialog" timestamp="1591712690229">
       <screen x="72" y="27" width="1292" height="587" />
     </state>
