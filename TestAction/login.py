@@ -1,9 +1,13 @@
-from PageObject.loginpage import LoginPage
+from Commonlib.Commonlib import Commonshare
 
-class Login(LoginPage):
-	"""登陆邮箱"""
+
+class Login(Commonshare):
 	def login(self, user, pwd):
-		page = LoginPage(self.driver)
-		page.login_input(user, pwd)
-		page.login_button()
-
+		# 打开url
+		self.open_url("https://mail.163.com/")
+		# 定位输入账号
+		self.input_data("name", "email", user)
+		# 定位输入密码
+		self.input_data("name", "password", pwd)
+		# 定位登录
+		self.click("id", "dologin")

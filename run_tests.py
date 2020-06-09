@@ -22,7 +22,6 @@ if __name__ == '__main__':
     # 定义测试用例的目录为当前目录
     base_dir = os.path.dirname(os.path.abspath(__file__))
     test_dir = base_dir + '/TestCase'
-    print(test_dir)
     suit = unittest.defaultTestLoader.discover(test_dir, pattern='test_*.py')
 
     # 取当前日期时间
