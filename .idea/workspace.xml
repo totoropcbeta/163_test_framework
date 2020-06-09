@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2f97da9-df32-440a-a71e-0741e07d65f1" name="Default Changelist" comment="修改HTMLTestRunner路径">
-      <change afterPath="$PROJECT_DIR$/.idea/163_test_framework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestReport/2020-06-09 10:55:02_test_report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestReport/2020-06-09 11:00:53_test_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +43,52 @@
     </option>
   </component>
   <component name="ProjectId" id="1d3yOhjIxKttv6f8u4MMzk7b8R2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/run_tests.py" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Commonlib" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="run_tests" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="163_test_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -71,12 +98,13 @@
       <changelist id="c2f97da9-df32-440a-a71e-0741e07d65f1" name="Default Changelist" comment="" />
       <changelist id="" name="HTML Changelist" comment="" />
       <changelist id="" name="Config Changelist" comment="工作环境配置文件" />
+      <changelist id="" name="Config Changelist" comment="" />
       <created>1591668041032</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591668041032</updated>
       <workItem from="1591668043210" duration="1220000" />
-      <workItem from="1591669309995" duration="1096000" />
+      <workItem from="1591669309995" duration="2657000" />
     </task>
     <task id="LOCAL-00001" summary="完成登陆测试">
       <created>1591668639325</created>
@@ -106,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591670244687</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Config Changelist">
+      <created>1591670535071</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591670535071</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,17 +159,23 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="完成登陆测试" />
     <MESSAGE value="配置介绍" />
     <MESSAGE value="修改报告样式" />
     <MESSAGE value="修改HTMLTestRunner路径" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改HTMLTestRunner路径" />
+    <MESSAGE value="Config Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Config Changelist" />
   </component>
   <component name="WindowStateProjectService">
     <state x="587" y="173" width="251" height="302" key="#Notifications" timestamp="1591668685380">
       <screen x="72" y="27" width="1292" height="587" />
     </state>
     <state x="587" y="173" width="251" height="302" key="#Notifications/72.27.1292.587@72.27.1292.587" timestamp="1591668685380" />
+    <state x="176" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591670878559">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="176" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1292.587@72.27.1292.587" timestamp="1591670878559" />
     <state x="451" y="67" width="524" height="514" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591669912293">
       <screen x="72" y="27" width="1292" height="587" />
     </state>
@@ -143,30 +184,78 @@
       <screen x="72" y="27" width="1292" height="587" />
     </state>
     <state x="172" y="127" width="1092" height="387" key="DiffContextDialog/72.27.1292.587@72.27.1292.587" timestamp="1591670046042" />
-    <state x="486" y="61" width="453" height="525" key="FileChooserDialogImpl" timestamp="1591669453539">
+    <state x="486" y="61" width="453" height="525" key="FileChooserDialogImpl" timestamp="1591670874225">
       <screen x="72" y="27" width="1292" height="587" />
     </state>
-    <state x="486" y="61" width="453" height="525" key="FileChooserDialogImpl/72.27.1292.587@72.27.1292.587" timestamp="1591669453539" />
+    <state x="486" y="61" width="453" height="525" key="FileChooserDialogImpl/72.27.1292.587@72.27.1292.587" timestamp="1591670874225" />
     <state x="533" y="215" width="369" height="217" key="Github.ShareDialog" timestamp="1591668373020">
       <screen x="72" y="27" width="1292" height="587" />
     </state>
     <state x="533" y="215" width="369" height="217" key="Github.ShareDialog/72.27.1292.587@72.27.1292.587" timestamp="1591668373020" />
-    <state x="425" y="27" width="575" height="587" key="RollbackChangesDialog" timestamp="1591669605639">
+    <state width="1238" height="118" key="GridCell.Tab.0.bottom" timestamp="1591671653568">
       <screen x="72" y="27" width="1292" height="587" />
     </state>
-    <state x="425" y="27" width="575" height="587" key="RollbackChangesDialog/72.27.1292.587@72.27.1292.587" timestamp="1591669605639" />
+    <state width="1238" height="118" key="GridCell.Tab.0.bottom/72.27.1292.587@72.27.1292.587" timestamp="1591671653568" />
+    <state width="1238" height="118" key="GridCell.Tab.0.center" timestamp="1591671653562">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state width="1238" height="118" key="GridCell.Tab.0.center/72.27.1292.587@72.27.1292.587" timestamp="1591671653562" />
+    <state width="1238" height="118" key="GridCell.Tab.0.left" timestamp="1591671653561">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state width="1238" height="118" key="GridCell.Tab.0.left/72.27.1292.587@72.27.1292.587" timestamp="1591671653561" />
+    <state width="1238" height="118" key="GridCell.Tab.0.right" timestamp="1591671653563">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state width="1238" height="118" key="GridCell.Tab.0.right/72.27.1292.587@72.27.1292.587" timestamp="1591671653563" />
+    <state width="1238" height="149" key="GridCell.Tab.1.bottom" timestamp="1591671283725">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state width="1238" height="149" key="GridCell.Tab.1.bottom/72.27.1292.587@72.27.1292.587" timestamp="1591671283725" />
+    <state width="1238" height="149" key="GridCell.Tab.1.center" timestamp="1591671283724">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state width="1238" height="149" key="GridCell.Tab.1.center/72.27.1292.587@72.27.1292.587" timestamp="1591671283724" />
+    <state width="1238" height="149" key="GridCell.Tab.1.left" timestamp="1591671283723">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state width="1238" height="149" key="GridCell.Tab.1.left/72.27.1292.587@72.27.1292.587" timestamp="1591671283723" />
+    <state width="1238" height="149" key="GridCell.Tab.1.right" timestamp="1591671283725">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state width="1238" height="149" key="GridCell.Tab.1.right/72.27.1292.587@72.27.1292.587" timestamp="1591671283725" />
+    <state x="425" y="27" width="575" height="587" key="RollbackChangesDialog" timestamp="1591670447249">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="425" y="27" width="575" height="587" key="RollbackChangesDialog/72.27.1292.587@72.27.1292.587" timestamp="1591670447249" />
     <state x="199" y="27" width="1027" height="587" key="SettingsEditor" timestamp="1591668253627">
       <screen x="72" y="27" width="1292" height="587" />
     </state>
     <state x="199" y="27" width="1027" height="587" key="SettingsEditor/72.27.1292.587@72.27.1292.587" timestamp="1591668253627" />
-    <state x="560" y="227" width="306" height="194" key="VCS.ChangelistChooser" timestamp="1591670354292">
+    <state x="72" y="27" width="523" height="587" key="VCS.ChangeListViewerDialog" timestamp="1591670685393">
       <screen x="72" y="27" width="1292" height="587" />
     </state>
-    <state x="560" y="227" width="306" height="194" key="VCS.ChangelistChooser/72.27.1292.587@72.27.1292.587" timestamp="1591670354292" />
-    <state x="313" y="55" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1591670265146">
+    <state x="72" y="27" width="523" height="587" key="VCS.ChangeListViewerDialog/72.27.1292.587@72.27.1292.587" timestamp="1591670685393" />
+    <state x="560" y="227" width="306" height="194" key="VCS.ChangelistChooser" timestamp="1591670525245">
       <screen x="72" y="27" width="1292" height="587" />
     </state>
-    <state x="313" y="55" width="800" height="538" key="Vcs.Push.Dialog.v2/72.27.1292.587@72.27.1292.587" timestamp="1591670265146" />
+    <state x="560" y="227" width="306" height="194" key="VCS.ChangelistChooser/72.27.1292.587@72.27.1292.587" timestamp="1591670525245" />
+    <state x="313" y="55" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1591670713012">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="313" y="55" width="800" height="538" key="Vcs.Push.Dialog.v2/72.27.1292.587@72.27.1292.587" timestamp="1591670713012" />
+    <state width="646" height="293" key="XDebugger.FullValuePopup" timestamp="1591671189600">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state width="646" height="293" key="XDebugger.FullValuePopup/72.27.1292.587@72.27.1292.587" timestamp="1591671189600" />
+    <state x="172" y="127" width="1092" height="387" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1591671309165">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="172" y="127" width="1092" height="387" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/72.27.1292.587@72.27.1292.587" timestamp="1591671309165" />
+    <state x="487" y="230" width="461" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591671916499">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="487" y="230" width="461" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1292.587@72.27.1292.587" timestamp="1591671916499" />
     <state x="417" y="96" width="745" height="463" key="git4idea.merge.GitPullDialog" timestamp="1591668442627">
       <screen x="72" y="27" width="1292" height="587" />
     </state>
@@ -179,5 +268,16 @@
       <screen x="72" y="27" width="1292" height="587" />
     </state>
     <state x="522" y="232" width="381" height="183" key="git4idea.remote.GitConfigureRemotesDialog/72.27.1292.587@72.27.1292.587" timestamp="1591669507478" />
+    <state x="428" y="209" width="569" height="230" key="git4idea.ui.GitResetDialog" timestamp="1591670689487">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="428" y="209" width="569" height="230" key="git4idea.ui.GitResetDialog/72.27.1292.587@72.27.1292.587" timestamp="1591670689487" />
+    <state x="381" y="26" key="search.everywhere.popup" timestamp="1591671851641">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="381" y="26" key="search.everywhere.popup/72.27.1292.587@72.27.1292.587" timestamp="1591671851641" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/163_test_framework$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1591671653538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
