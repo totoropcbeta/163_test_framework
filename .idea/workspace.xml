@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2f97da9-df32-440a-a71e-0741e07d65f1" name="Default Changelist" comment="修改HTMLTestRunner路径">
+      <change afterPath="$PROJECT_DIR$/.idea/163_test_framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/totoropcbeta/163_test_framework" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1d3yOhjIxKttv6f8u4MMzk7b8R2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Commonlib" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2f97da9-df32-440a-a71e-0741e07d65f1" name="Default Changelist" comment="" />
+      <changelist id="" name="HTML Changelist" comment="" />
+      <changelist id="" name="Config Changelist" comment="工作环境配置文件" />
+      <created>1591668041032</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591668041032</updated>
+      <workItem from="1591668043210" duration="1220000" />
+      <workItem from="1591669309995" duration="1096000" />
+    </task>
+    <task id="LOCAL-00001" summary="完成登陆测试">
+      <created>1591668639325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591668639325</updated>
+    </task>
+    <task id="LOCAL-00002" summary="配置介绍">
+      <created>1591669108025</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591669108025</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改报告样式">
+      <created>1591670072547</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591670072547</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改HTMLTestRunner路径">
+      <created>1591670244687</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591670244687</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成登陆测试" />
+    <MESSAGE value="配置介绍" />
+    <MESSAGE value="修改报告样式" />
+    <MESSAGE value="修改HTMLTestRunner路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改HTMLTestRunner路径" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="587" y="173" width="251" height="302" key="#Notifications" timestamp="1591668685380">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="587" y="173" width="251" height="302" key="#Notifications/72.27.1292.587@72.27.1292.587" timestamp="1591668685380" />
+    <state x="451" y="67" width="524" height="514" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591669912293">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="451" y="67" width="524" height="514" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1292.587@72.27.1292.587" timestamp="1591669912293" />
+    <state x="172" y="127" width="1092" height="387" key="DiffContextDialog" timestamp="1591670046042">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="172" y="127" width="1092" height="387" key="DiffContextDialog/72.27.1292.587@72.27.1292.587" timestamp="1591670046042" />
+    <state x="486" y="61" width="453" height="525" key="FileChooserDialogImpl" timestamp="1591669453539">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="486" y="61" width="453" height="525" key="FileChooserDialogImpl/72.27.1292.587@72.27.1292.587" timestamp="1591669453539" />
+    <state x="533" y="215" width="369" height="217" key="Github.ShareDialog" timestamp="1591668373020">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="533" y="215" width="369" height="217" key="Github.ShareDialog/72.27.1292.587@72.27.1292.587" timestamp="1591668373020" />
+    <state x="425" y="27" width="575" height="587" key="RollbackChangesDialog" timestamp="1591669605639">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="425" y="27" width="575" height="587" key="RollbackChangesDialog/72.27.1292.587@72.27.1292.587" timestamp="1591669605639" />
+    <state x="199" y="27" width="1027" height="587" key="SettingsEditor" timestamp="1591668253627">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="199" y="27" width="1027" height="587" key="SettingsEditor/72.27.1292.587@72.27.1292.587" timestamp="1591668253627" />
+    <state x="560" y="227" width="306" height="194" key="VCS.ChangelistChooser" timestamp="1591670354292">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="560" y="227" width="306" height="194" key="VCS.ChangelistChooser/72.27.1292.587@72.27.1292.587" timestamp="1591670354292" />
+    <state x="313" y="55" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1591670265146">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="313" y="55" width="800" height="538" key="Vcs.Push.Dialog.v2/72.27.1292.587@72.27.1292.587" timestamp="1591670265146" />
+    <state x="417" y="96" width="745" height="463" key="git4idea.merge.GitPullDialog" timestamp="1591668442627">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="417" y="96" width="745" height="463" key="git4idea.merge.GitPullDialog/72.27.1292.587@72.27.1292.587" timestamp="1591668442627" />
+    <state x="453" y="172" width="529" height="304" key="git4idea.rebase.GitRebaseDialog" timestamp="1591668331252">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="453" y="172" width="529" height="304" key="git4idea.rebase.GitRebaseDialog/72.27.1292.587@72.27.1292.587" timestamp="1591668331252" />
+    <state x="522" y="232" width="381" height="183" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591669507478">
+      <screen x="72" y="27" width="1292" height="587" />
+    </state>
+    <state x="522" y="232" width="381" height="183" key="git4idea.remote.GitConfigureRemotesDialog/72.27.1292.587@72.27.1292.587" timestamp="1591669507478" />
+  </component>
+</project>
