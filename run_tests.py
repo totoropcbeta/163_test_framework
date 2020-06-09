@@ -2,7 +2,7 @@ import time
 import os
 import unittest
 import yagmail
-from HTMLTestRunner.HTMLTestRunner import HTMLTestRunner
+from Commonlib.HTMLTestRunner import HTMLTestRunner
 
 
 # 把测试报告作为附件发送到指定邮箱。
