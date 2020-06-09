@@ -22,19 +22,20 @@ if __name__ == '__main__':
     # 定义测试用例的目录为当前目录
     base_dir = os.path.dirname(os.path.abspath(__file__))
     test_dir = base_dir + '/TestCase'
+    print(test_dir)
     suit = unittest.defaultTestLoader.discover(test_dir, pattern='test_*.py')
 
     # 取当前日期时间
-    now_time = time.strftime("%Y/%m/%d %H:%M:%S")
+    now_time = time.strftime("%Y-%m-%d %H:%M:%S")
     html_report = base_dir + '/TestReport/' + now_time + '_test_report.html'
-    fp = open(html_report, 'wb')
-    # 调用HTMLTestRunner，运行测试用例
-    runner = HTMLTestRunner(
-        stream=fp,
-        verbosity=2,
-        title="163邮箱Web自动化测试报告",
-        description="Ubuntu20.04,Chrome83"
-    )
-    runner.run(suit)
-    fp.close()
-    send_mail(html_report)  # 发送报告
+    with open(html_report, 'wb') as fp:
+        # 调用HTMLTestRunner，运行测试用例
+        runner = HTMLTestRunner(
+            stream=fp,
+            verbosity=2,
+            title="163邮箱Web自动化测试报告",
+            description="Ubuntu20.04,Chrome83"
+        )
+        runner.run(suit)
+        fp.close()
+        send_mail(html_report)  # 发送报告

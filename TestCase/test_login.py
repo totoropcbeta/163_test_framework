@@ -15,11 +15,11 @@ class Testlogincase(unittest.TestCase):
     def test_001(self):
         """输入正确账号密码"""
         log = Login()
-        log.login("totoropcbeta", "totoro520jcl")
+        log.login("wangyiwebtest", "wangyi2020")
         # 获取用于断言的用户名
         data = log.get_text("id", "spnUid")
         # 断言
-        self.assertEqual("totoropcbeta@163.com", data)
+        self.assertEqual("wangyiwebtest@163.com", data)
 
     def test_002(self):
         """不输入账号密码"""
@@ -33,7 +33,7 @@ class Testlogincase(unittest.TestCase):
     def test_003(self):
         """输入账号不输入密码"""
         log = Login()
-        log.login("totoropcbeta", "")
+        log.login("wangyiwebtest", "")
         # 获取用于断言的用户名
         data = log.get_text("id", "nerror")
         # 断言
@@ -42,7 +42,7 @@ class Testlogincase(unittest.TestCase):
     def test_004(self):
         """输入密码不输入账号"""
         log = Login()
-        log.login("", "totoro520jcl")
+        log.login("", "wangyi2020")
         # 获取用于断言的用户名
         data = log.get_text("class", "ferrorhead")
         # 断言
@@ -51,7 +51,7 @@ class Testlogincase(unittest.TestCase):
     def test_005(self):
         """输入正确账号错误密码"""
         log = Login()
-        log.login("totoropcbeta", "aaaaaaaa")
+        log.login("wangyiwebtest", "aaaaaaaa")
         # 获取用于断言的用户名
         data = log.get_text("id", "nerror")
         # 断言
