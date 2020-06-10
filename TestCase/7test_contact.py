@@ -27,12 +27,14 @@ class Testcontactcase(unittest.TestCase):
         con = NewContact(self.driver)
         con.newcontact("张三", "85858685@163.com", True, "13285698745", "联系人1")
         self.assertIn("85858685@163.com", self.driver.page_source)
+        self.driver.refresh()
 
     def test_002(self):
         """不选星标"""
         con = NewContact(self.driver)
         con.newcontact("李四", "6848668486@163.com", False, "15964258963", "联系人2")
         self.assertIn("6848668486@163.com", self.driver.page_source)
+        self.driver.refresh()
 
     def test_003(self):
         """不填邮件地址"""

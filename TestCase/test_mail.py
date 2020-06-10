@@ -14,7 +14,7 @@ class TestSendEmail(unittest.TestCase):
         log = Login(cls.driver)
         log.open()
         cls.driver.implicitly_wait(10)
-        log.login("totoropcbeta", "totoro520jcl")
+        log.login("wangyiwebtest", "wangyi2020")
         print("send email test start.")
 
     @classmethod
@@ -27,7 +27,8 @@ class TestSendEmail(unittest.TestCase):
         """全部正确填写"""
         sen = SendEmail(self.driver)
         sen.send_email("957584602@qq.com", "测试邮件", "这是一封测试邮件。")
-        self.assertIn("继续写信", self.driver.page_source)
+        self.assertIn("发送成功", self.driver.page_source)
+        sleep(2)
         self.driver.refresh()
 
 

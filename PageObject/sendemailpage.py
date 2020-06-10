@@ -17,11 +17,16 @@ class SendEmailPage(BasePage):
         el_mail.send_keys(email)
         el_topic = self.by_xpath("//*[@aria-label = '邮件主题输入框，请输入邮件主题']/child::input")
         el_topic.send_keys(topic)
+        # 进入编辑正文表单
+        text_iframe = self.by_class("APP-editor-iframe")
+        self.driver.switch_to.frame(text_iframe)
         el_text = self.by_xpath("//*[text() = '编辑邮件正文']/ancestor::html/child::body")
-        el_topic.send_keys(text)
+        el_text.send_keys(text)
 
     def send_button(self):
         # 点击发送
         sleep(2)
+        # 回到最外层页面
+        self.driver.switch_to.default_content()
         el_send = self.by_xpath("//span[text() = '发送']")
         el_send.click()
