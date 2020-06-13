@@ -3,6 +3,7 @@ import os
 import unittest
 import yagmail
 from Commonlib.HTMLTestRunner import HTMLTestRunner
+from TestCase.test_login import Testlogincase
 
 
 # 把测试报告作为附件发送到指定邮箱。
@@ -22,8 +23,7 @@ if __name__ == '__main__':
     # 定义测试用例的目录为当前目录
     base_dir = os.path.dirname(os.path.abspath(__file__))
     test_dir = base_dir + '/TestCase'
-    suit = unittest.defaultTestLoader.discover(test_dir, pattern='test_*.py')
-
+    suit = unittest.defaultTestLoader.discover(test_dir, pattern='test_login.py')
     # 取当前日期时间
     now_time = time.strftime("%Y-%m-%d %H:%M:%S")
     html_report = base_dir + '/TestReport/' + now_time + '_test_report.html'
