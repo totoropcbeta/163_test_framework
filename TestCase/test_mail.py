@@ -1,10 +1,19 @@
 import unittest
+import os
 from TestAction.login import Login
+from Utils.exceldealutil import ParseExcel
+from ddt import ddt, data, unpack
 from TestAction.send_mail import SendEmail
 from selenium import webdriver
 from time import sleep
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# print(base_dir)
+excelPath = base_dir + '/TestData/sendemail.xlsx'
+sheetName = 'Sheet1'
+excel = ParseExcel(excelPath, sheetName)
 
 
+@ddt
 class TestSendEmail(unittest.TestCase):
     """163发送邮件测试"""
     @classmethod
@@ -15,19 +24,21 @@ class TestSendEmail(unittest.TestCase):
         log.open()
         cls.driver.implicitly_wait(10)
         log.login("wangyiwebtest", "wangyi2020")
-        print("send email test start.")
+        # print("send email test start.")
 
     @classmethod
     def tearDownClass(cls) -> None:
         sleep(2)
         cls.driver.quit()
-        print("send email test end.")
+        # print("send email test end.")
 
-    def test_001(self):
-        """全部正确填写"""
+    @data(*excel.getDatasFromSheet())
+    @unpack
+    def test_email(self, recipients, topic, text, assertion):
+        # print(recipients, topic, text, assertion)
         sen = SendEmail(self.driver)
-        sen.send_email("957584602@qq.com", "测试邮件", "这是一封测试邮件。")
-        self.assertIn("发送成功", self.driver.page_source)
+        sen.send_email(recipients, topic, text)
+        self.assertIn(assertion, self.driver.page_source)
         sleep(2)
         self.driver.refresh()
 

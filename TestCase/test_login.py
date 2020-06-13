@@ -2,7 +2,7 @@ import unittest
 import os
 from ddt import ddt, data, unpack
 from TestAction.login import Login
-from Utils.logindealutil import ParseExcel
+from Utils.exceldealutil import ParseExcel
 from selenium import webdriver
 from time import sleep
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

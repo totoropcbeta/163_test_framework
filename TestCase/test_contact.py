@@ -1,10 +1,19 @@
 import unittest
+import os
+from ddt import ddt, data, unpack
 from TestAction.login import Login
+from Utils.exceldealutil import ParseExcel
 from TestAction.new_contact import NewContact
 from selenium import webdriver
 from time import sleep
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# print(base_dir)
+excelPath = base_dir + '/TestData/newcontact.xlsx'
+sheetName = 'Sheet1'
+excel = ParseExcel(excelPath, sheetName)
 
 
+@ddt
 class Testcontactcase(unittest.TestCase):
     """163新建联系人测试"""
     @classmethod
@@ -22,32 +31,13 @@ class Testcontactcase(unittest.TestCase):
         cls.driver.quit()
         print("new contact test finished.")
 
-    def test_001(self):
-        """全部填写"""
+    @data(*excel.getDatasFromSheet())
+    @unpack
+    def test_contact(self, name, email, star, phone, note, assertion):
+        print(name, email, star, phone, note, assertion)
         con = NewContact(self.driver)
-        con.newcontact("张三", "85858685@163.com", True, "13285698745", "联系人1")
-        self.assertIn("85858685@163.com", self.driver.page_source)
-        self.driver.refresh()
-
-    def test_002(self):
-        """不选星标"""
-        con = NewContact(self.driver)
-        con.newcontact("李四", "6848668486@163.com", False, "15964258963", "联系人2")
-        self.assertIn("6848668486@163.com", self.driver.page_source)
-        self.driver.refresh()
-
-    def test_003(self):
-        """不填邮件地址"""
-        con = NewContact(self.driver)
-        con.newcontact("王五", "", False, "18654235874", "联系人3")
-        self.assertIn("请正确填写邮件地址。", self.driver.page_source)
-        self.driver.refresh()
-
-    def test_004(self):
-        """填写错误邮件地址"""
-        con = NewContact(self.driver)
-        con.newcontact("钱六", "957584565@", False, "159564236985", "联系人4")
-        self.assertIn("请正确填写邮件地址。", self.driver.page_source)
+        con.newcontact(name, email, star, phone, note)
+        self.assertIn(assertion, self.driver.page_source)
         self.driver.refresh()
 
 
