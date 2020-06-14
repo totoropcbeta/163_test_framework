@@ -8,3 +8,9 @@
 请先安装requirements
 
 `pip3 install -r requirements.txt`
+
+虚拟机环境下,务必将虚拟机设置到全屏状态,以免出现测试error
+
+
+后续加入log日志记录并处理异常
+
