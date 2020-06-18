@@ -9,9 +9,9 @@ class ParseExcel:
 
     def getDatasFromSheet(self):
         datalist = []
-        for line in self.sheet.rows[1:]:  # 手动跳过第一行
+        for line in self.sheet.rows[1:]:  # 跳过第一行
             temp_list = []
-            for col in range(1, self.max_column_num):  # 手动跳过第一列
+            for col in range(1, self.max_column_num):  # 跳过第一列
                 temp_list.append(line[col].value)
             datalist.append(temp_list)
         return datalist[0:]
