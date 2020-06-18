@@ -1,6 +1,6 @@
 
 class BasePage:
-    """基础page层,封装一些常用方法。"""
+    """基础page层,封装元素定位常用方法。"""
 
     def __init__(self, driver):
         self.driver = driver
