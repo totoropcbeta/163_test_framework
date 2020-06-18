@@ -23,7 +23,7 @@ if __name__ == '__main__':
     base_dir = os.path.dirname(os.path.abspath(__file__))
     test_dir = base_dir + '/TestCase'
     suit = unittest.defaultTestLoader.discover(test_dir, pattern='test_*.py')
-    # 取当前日期时间
+    # 当前日期时间
     now_time = time.strftime("%Y-%m-%d %H:%M:%S")
     html_report = base_dir + '/TestReport/' + now_time + '_test_report.html'
     with open(html_report, 'wb') as fp:
