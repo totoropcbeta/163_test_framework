@@ -229,7 +229,7 @@ function show_img(obj) {
         changeImg(index++);
     }
     imgyuan.style.width= 25*len +"px";
-    //对应圆圈和图片同步
+    //对应圆圈以及图片同步
     function changeImg(index) {
         var list = obj1.getElementsByTagName('img');
         var list1 = obj1.getElementsByTagName('font');
