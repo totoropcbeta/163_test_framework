@@ -16,7 +16,11 @@ excel = ParseExcel(excelPath, sheetName)
 class Testlogincase(unittest.TestCase):
     """163登陆测试"""
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        option = webdriver.ChromeOptions()
+        option.add_argument('headless')
+        option.add_argument('no-sandbox')
+        option.add_argument('disable-dev-shm-usage')
+        self.driver = webdriver.Chrome('/usr/bin/chromedriver', chrome_options=option)
         # 设置隐式等待
         self.driver.implicitly_wait(10)
         # 设置浏览器的最大化

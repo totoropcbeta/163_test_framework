@@ -18,11 +18,6 @@ class Testcontactcase(unittest.TestCase):
     """163新建联系人测试"""
     @classmethod
     def setUpClass(cls):
-        chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument('--headless')
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--disable-gpu')
-        chrome_options.add_argument('--disable-dev-shm-usa')
         cls.driver = webdriver.Chrome()
         cls.driver.maximize_window()
         log = Login(cls.driver)
