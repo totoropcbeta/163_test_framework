@@ -26,7 +26,7 @@ class Testcontactcase(unittest.TestCase):
         cls.driver.maximize_window()
         log = Login(cls.driver)
         log.open()
-        log.login("totoropcbeta", "totoro520jcl")
+        log.login("wangyiwebtest", "wangyi2020")
         print("new contact test start.")
 
     @classmethod
