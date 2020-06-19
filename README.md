@@ -14,3 +14,17 @@
 
 后续加入log日志记录并处理异常
 
+在初次执行Jenkins任务构建时,出现如下错误
+
+`selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)`
+
+为ChromeDriver添加如下参数
+
+`option = webdriver.ChromeOptions()
+option.add_argument('headless')  # 无可视化模式
+option.add_argument('no-sandbox')  # 取消沙盒模式
+option.add_argument('disable-dev-shm-usage')
+driver = webdriver.Chrome('/usr/bin/chromedriver', chrome_options=option)`
+
