@@ -18,7 +18,11 @@ class TestSendEmail(unittest.TestCase):
     """163发送邮件测试"""
     @classmethod
     def setUpClass(cls) -> None:
-        cls.driver = webdriver.Chrome()
+        option = webdriver.ChromeOptions()
+        option.add_argument('headless')
+        option.add_argument('no-sandbox')
+        option.add_argument('disable-dev-shm-usage')
+        cls.driver = webdriver.Chrome('/usr/bin/chromedriver', chrome_options=option)
         cls.driver.maximize_window()
         log = Login(cls.driver)
         log.open()
