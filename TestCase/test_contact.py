@@ -18,7 +18,7 @@ class Testcontactcase(unittest.TestCase):
     """163新建联系人测试"""
     @classmethod
     def setUpClass(cls):
-        cls.driver = webdriver.Firefox()
+        cls.driver = webdriver.Chrome()
         cls.driver.maximize_window()
         log = Login(cls.driver)
         log.open()
