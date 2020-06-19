@@ -19,7 +19,7 @@ class Testcontactcase(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         option = webdriver.ChromeOptions()
-        option.add_argument('headless')  # 无头模式
+        option.add_argument('headless')  # 无可视化模式
         option.add_argument('no-sandbox')  # 取消沙盒模式
         option.add_argument('disable-dev-shm-usage')
         cls.driver = webdriver.Chrome('/usr/bin/chromedriver', chrome_options=option)
