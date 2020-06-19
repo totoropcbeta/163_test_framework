@@ -24,8 +24,10 @@ if __name__ == '__main__':
     test_dir = base_dir + '/TestCase'
     suit = unittest.defaultTestLoader.discover(test_dir, pattern='test_*.py')
     # 当前日期时间
-    now_time = time.strftime("%Y-%m-%d %H:%M:%S")
-    html_report = base_dir + '/TestReport/' + now_time + '_test_report.html'
+    # now_time = time.strftime("%Y-%m-%d %H:%M:%S")
+    # html_report = base_dir + '/TestReport/' + now_time + '_test_report.html'
+    # 避免Jenkins发送邮件附件太多，覆盖上一次测试报告
+    html_report = base_dir + '/TestReport/' + 'html_report.html'
     with open(html_report, 'wb') as fp:
         # 调用HTMLTestRunner，运行测试用例
         runner = HTMLTestRunner(
