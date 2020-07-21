@@ -1,0 +1,104 @@
+Tue, 21 Jul 2020 15:06:09 test_contact.py[line:65] INFO 测试用例:('张三', '85858685@163.com', True, 13285698745, '联系人1'), 期望: '85858685@163.com', 通过
+Tue, 21 Jul 2020 15:06:16 test_contact.py[line:65] INFO 测试用例:('李四', '6848668486@163.com', False, 15964258963, '联系人2'), 期望: '6848668486@163.com', 通过
+Tue, 21 Jul 2020 15:06:24 test_contact.py[line:65] INFO 测试用例:('王五', None, False, 18654235874, '联系人3'), 期望: '请正确填写邮件地址。', 通过
+Tue, 21 Jul 2020 15:06:31 test_contact.py[line:65] INFO 测试用例:('钱六', '957584565@', False, 15956423698, '联系人4'), 期望: '请正确填写邮件地址。', 通过
+Tue, 21 Jul 2020 15:10:22 test_contact.py[line:59] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "/home/totoro/PycharmProjects/163_web_test/TestCase/test_contact.py", line 55, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "/home/totoro/PycharmProjects/163_web_test/TestAction/new_contact.py", line 8, in newcontact
+    page.new_contact()
+  File "/home/totoro/PycharmProjects/163_web_test/PageObject/contactpage.py", line 10, in new_contact
+    el_txl = self.by_xpath("//li[@title = '通讯录']")
+  File "/home/totoro/PycharmProjects/163_web_test/PageObject/basepage.py", line 32, in by_xpath
+    return self.driver.find_element_by_xpath(xpath)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@title = '通讯录']"}
+  (Session info: headless chrome=84.0.4147.89)
+
+
+Tue, 21 Jul 2020 15:10:24 test_contact.py[line:59] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "/home/totoro/PycharmProjects/163_web_test/TestCase/test_contact.py", line 55, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "/home/totoro/PycharmProjects/163_web_test/TestAction/new_contact.py", line 8, in newcontact
+    page.new_contact()
+  File "/home/totoro/PycharmProjects/163_web_test/PageObject/contactpage.py", line 10, in new_contact
+    el_txl = self.by_xpath("//li[@title = '通讯录']")
+  File "/home/totoro/PycharmProjects/163_web_test/PageObject/basepage.py", line 32, in by_xpath
+    return self.driver.find_element_by_xpath(xpath)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@title = '通讯录']"}
+  (Session info: headless chrome=84.0.4147.89)
+
+
+Tue, 21 Jul 2020 15:10:26 test_contact.py[line:59] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "/home/totoro/PycharmProjects/163_web_test/TestCase/test_contact.py", line 55, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "/home/totoro/PycharmProjects/163_web_test/TestAction/new_contact.py", line 8, in newcontact
+    page.new_contact()
+  File "/home/totoro/PycharmProjects/163_web_test/PageObject/contactpage.py", line 10, in new_contact
+    el_txl = self.by_xpath("//li[@title = '通讯录']")
+  File "/home/totoro/PycharmProjects/163_web_test/PageObject/basepage.py", line 32, in by_xpath
+    return self.driver.find_element_by_xpath(xpath)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@title = '通讯录']"}
+  (Session info: headless chrome=84.0.4147.89)
+
+
+Tue, 21 Jul 2020 15:10:28 test_contact.py[line:59] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "/home/totoro/PycharmProjects/163_web_test/TestCase/test_contact.py", line 55, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "/home/totoro/PycharmProjects/163_web_test/TestAction/new_contact.py", line 8, in newcontact
+    page.new_contact()
+  File "/home/totoro/PycharmProjects/163_web_test/PageObject/contactpage.py", line 10, in new_contact
+    el_txl = self.by_xpath("//li[@title = '通讯录']")
+  File "/home/totoro/PycharmProjects/163_web_test/PageObject/basepage.py", line 32, in by_xpath
+    return self.driver.find_element_by_xpath(xpath)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@title = '通讯录']"}
+  (Session info: headless chrome=84.0.4147.89)
+
+
+Tue, 21 Jul 2020 15:10:36 connectionpool.py[line:744] WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae4c169400>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/51330158988024193e4d7ddda60abc75/screenshot
+Tue, 21 Jul 2020 15:10:36 connectionpool.py[line:744] WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae4c1699a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/51330158988024193e4d7ddda60abc75/screenshot
+Tue, 21 Jul 2020 15:10:36 connectionpool.py[line:744] WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae4c1698b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/51330158988024193e4d7ddda60abc75/screenshot
+Tue, 21 Jul 2020 15:11:01 connectionpool.py[line:744] WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae4ce6a5e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5e4563a74aa162174385f8e677e7a550/screenshot
+Tue, 21 Jul 2020 15:11:01 connectionpool.py[line:744] WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae4ce6ad90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5e4563a74aa162174385f8e677e7a550/screenshot
+Tue, 21 Jul 2020 15:11:01 connectionpool.py[line:744] WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae4ce6ae50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5e4563a74aa162174385f8e677e7a550/screenshot
+Tue, 21 Jul 2020 16:08:06 test_contact.py[line:65] INFO 测试用例:('张三', '85858685@163.com', True, 13285698745, '联系人1'), 期望: '85858685@163.com', 通过
+Tue, 21 Jul 2020 16:08:13 test_contact.py[line:65] INFO 测试用例:('李四', '6848668486@163.com', False, 15964258963, '联系人2'), 期望: '6848668486@163.com', 通过
+Tue, 21 Jul 2020 16:08:20 test_contact.py[line:65] INFO 测试用例:('王五', None, False, 18654235874, '联系人3'), 期望: '请正确填写邮件地址。', 通过
+Tue, 21 Jul 2020 16:08:27 test_contact.py[line:65] INFO 测试用例:('钱六', '957584565@', False, 15956423698, '联系人4'), 期望: '请正确填写邮件地址。', 通过
+Tue, 21 Jul 2020 16:08:36 test_login.py[line:63] INFO 测试用例:('wangyiwebtest', 'wangyi2020'), 期望: 'wangyiwebtest@163.com', 通过
+Tue, 21 Jul 2020 16:08:42 test_login.py[line:63] INFO 测试用例:(None, None), 期望: '请输入帐号', 通过
+Tue, 21 Jul 2020 16:08:47 test_login.py[line:63] INFO 测试用例:('wangyiwebtest', None), 期望: '请输入密码', 通过
+Tue, 21 Jul 2020 16:08:53 test_login.py[line:63] INFO 测试用例:(None, 'wangyi2020'), 期望: '请输入帐号', 通过
+Tue, 21 Jul 2020 16:08:59 test_login.py[line:63] INFO 测试用例:('wangyiwebtest', 'aaaaaaaa'), 期望: '帐号或密码错误', 通过
+Tue, 21 Jul 2020 16:09:14 test_mail.py[line:68] INFO 测试用例:('957584602@qq.com', '测试邮件', '这是一封测试邮件。'), 期望: '发送成功', 通过
