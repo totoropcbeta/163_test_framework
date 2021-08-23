@@ -36,4 +36,4 @@ driver = webdriver.Chrome('/usr/bin/chromedriver', chrome_options=option)
 ```
 
 Jenkins配置过程见我的博客
-[Ubuntu20.04从Java配置到Jenkins持续集成Python自动化测试](https://blog.csdn.net/weixin_42656409/article/details/106848580)
+[Ubuntu20.04从Java配置到Jenkins持续集成Python自动化测试](https://www.cnblogs.com/totoroblog/p/14227002.html)
