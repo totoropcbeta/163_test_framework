@@ -1,4 +1,4 @@
-openpyxl==2.3.3
+openpyxl==2.4.2
 ddt==1.4.1
 yagmail==0.11.224
 selenium==3.141.0
